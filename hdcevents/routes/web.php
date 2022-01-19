@@ -24,7 +24,9 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/products', function () {
+
+
+/* Route::get('/products', function () {
 
     $busca = request('search');
 
@@ -34,3 +36,4 @@ Route::get('/products', function () {
 Route::get('/products/{id?}', function ($id = null) {
     return view('product', [ 'id' => $id ]);
 });
+ */
