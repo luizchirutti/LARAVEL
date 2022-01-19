@@ -30,7 +30,7 @@
                         <a href="/" class="nav-link">Eventos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Criar Eventos</a>
+                        <a href="/events/create" class="nav-link">Criar Eventos</a>
                     </li>
                     <li class="nav-item">
                         <a href="/" class="nav-link">Entrar</a>
@@ -46,6 +46,7 @@
         <footer>
             <p> HDC Events - Luiz Chirutti &copy; 2022 </p>
          </footer>
+         <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 
     </body>
 </html>
