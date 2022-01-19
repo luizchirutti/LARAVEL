@@ -1,8 +1,137 @@
+/* General */
+
 *{
     font-family: 'Roboto';
+}
+
+body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+
+}
+
+header{
+    background-color: snow;
+    border-bottom: seashell;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.btn-primary{
+    background-color:rgb(203, 216, 58);
+    border: 2px solid rgb(235, 151, 47);
+}
+
+.btn-primary:hover{
+    background-color: rgb(203, 216, 58);
+    border-color: rgb(203, 216, 58);;
 }
 
 #navbar img{
     width:80px;
 
+}
+
+#navbar{
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px 0;
+}
+
+#navbar a{
+    font-size: 14px;
+    color: slategray;
+}
+
+#navbar a:hover{
+    color: rgb(235, 151, 47);
+}
+
+#search-container{
+    background-image: url("../img/banner.png") ;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1{
+    color: rgb(235, 151, 47);
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#events-container{
+    padding: 50px;
+}
+
+#events-container h2{
+    margin-bottom: 10px;
+}
+
+#events-container .subtitle{
+    color: slategray;
+    margin-bottom: 30px;
+}
+
+#cards-container{
+    display: flex;
+}
+
+#events-container .card{
+    flex: 1 1 0;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5px;
+}
+
+#events-container img{
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card .card-date{
+    font-size: 12px;
+    color: rgb(104, 97, 97);
+}
+
+.card .card-title{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card-participants {
+    font-size: 14px;
+    color:darkslategray;
+}
+
+footer{
+    text-align: center;
+    background-color: dimgray;
+    color: honeydew;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin: 0;
 }
