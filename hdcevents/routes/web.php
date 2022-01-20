@@ -28,6 +28,11 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
+
 
 
 /* Route::get('/products', function () {
@@ -41,6 +46,3 @@ Route::get('/products/{id?}', function ($id = null) {
     return view('product', [ 'id' => $id ]);
 });
  */
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
